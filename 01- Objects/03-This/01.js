@@ -3,7 +3,7 @@ let admin = { name: 'Bob', age: 32 }
 
 function getName() {
   console.log(this.name);
-}
+};
 
 user.getName = getName;
 admin.getName = getName;
